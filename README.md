@@ -337,6 +337,8 @@ Every component above is also listed in the topical section it belongs to, under
 
 **\[TypeScript\] Busabase** ([busabase/busabase](https://github.com/busabase/busabase)): self-hostable database and workspace for AI agents where scoped credentials can require data, document, schema, skill, and app mutations to arrive as ChangeRequests with exact diffs, submitter attribution, comments, review decisions, commits, and history before approved changes become canonical. MIT-licensed, 2026-present.
 
+**\[TypeScript\] Impri** ([sekera-radim/impri](https://github.com/sekera-radim/impri)): self-hostable approval inbox that records human approvals, edits, and rejections for actions proposed by AI agents over MCP or REST, with review through a web inbox, Slack, Telegram, or phone. Agents integrate the returned decision into their execution flow. MIT-licensed core, 2026-present.
+
 ---
 
 ## Security Auditing and Scanners
