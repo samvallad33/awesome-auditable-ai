@@ -538,6 +538,8 @@ Standards and governance instruments for agent reliability and accountability. P
 
 **\[Framework\] Agent Oversight Framework** ([ZhangRui987/agent-oversight-framework](https://github.com/ZhangRui987/agent-oversight-framework)): independent governance proposal that organizes agent oversight into five layers, specifies evidence-collection and integrity controls, grades the evidence and design inferences behind its mechanisms, and runs a public evidence-correction process. ZhangRui987, 2026; a proposed design rather than a ratified standard or an evaluated implementation, so it sits at the same lower evidentiary register as MAESTRO above.
 
+**\[Framework\] FAIAS (Financial AI Independent Assurance Standard)** ([attahwonder/faias-standard](https://github.com/attahwonder/faias-standard), [Zenodo](https://doi.org/10.5281/zenodo.23127496)): independently authored assurance baseline for generative, agentic, and predictive AI in financial institutions, with 109 review questions across nine domains, evidence requests, review canvases, and non-production test procedures. Wonder Attah, v1.3.2, CC BY 4.0, 2026.
+
 **\[Standard\] C2PA Technical Specification / Content Credentials** ([spec.c2pa.org](https://spec.c2pa.org/specifications/specifications/2.2/specs/_attachments/C2PA_Specification.pdf), [c2pa-rs](https://github.com/contentauth/c2pa-rs)): cryptographically signed, tamper-evident metadata standard that records the origin and edit history of media, including a manifest for AI-generated and AI-edited content. C2PA (Adobe, Microsoft, BBC, Intel, Truepic, Sony, and others), v2.2 (2025).
 
 The five entries below are the primary sources for the verifiable-log and attestation patterns that
