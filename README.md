@@ -288,7 +288,6 @@ Every component above is also listed in the topical section it belongs to, under
 | [HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408)                                | Preprint 2026                   | Hides human-validated blockers in software-engineering and text-to-SQL tasks and scores selective escalation with an Ask-F1 metric.                                                                                                                                                                                                   |                                                                |
 
 ### Guardrail Tools
-- [Vestige](https://github.com/samvallad33/vestige) - Agent memory on an append-only, hash-chained log. Every write leaves a receipt you can check offline, and when an agent fails, Vestige walks the recorded chain back to the change that caused it and shows its work. Local Rust MCP server, zero vectors.
 
 **\[Tool\] NeMo Guardrails** ([NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)): an open-source toolkit that adds programmable rails to LLM applications and agents, intercepting requests to enforce Colang-defined policies and validate tool inputs and outputs before and after a call. Apache-2.0, 2023-present. [\[Paper\]](https://arxiv.org/abs/2310.10501) (EMNLP 2023 Demo)
 
@@ -337,6 +336,8 @@ Every component above is also listed in the topical section it belongs to, under
 **\[Rust\] SEMAPRAX Agent Runtime** ([wavect/semaprax](https://github.com/wavect/semaprax)): bounded agent loop with a caller-injected host that emits canonical Trace and Evidence documents for a run and checks them by internal replay before returning them. It is reached through the project's Rust API, so it does not attach to an agent written in another language, and the surrounding language project is pre-alpha. Apache-2.0, 2026-present.
 
 **\[TypeScript\] Busabase** ([busabase/busabase](https://github.com/busabase/busabase)): self-hostable database and workspace for AI agents where scoped credentials can require data, document, schema, skill, and app mutations to arrive as ChangeRequests with exact diffs, submitter attribution, comments, review decisions, commits, and history before approved changes become canonical. MIT-licensed, 2026-present.
+
+**\[Rust\] Vestige** ([samvallad33/vestige](https://github.com/samvallad33/vestige)): local MCP server that stores agent memory in an append-only, hash-chained log, supplies offline-checkable receipts for writes, and walks recorded execution relationships to support failure diagnosis. AGPL-3.0-licensed, 2026-present.
 
 ---
 
